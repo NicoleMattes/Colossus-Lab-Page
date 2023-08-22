@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid red;
+    padding: 0 10px;
+}
+
+.header__container__logo{
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+}
+
+.header__container__logo--cl{
+    background-color: #2489D3;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.header__container__name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
